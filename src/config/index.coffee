@@ -1,0 +1,2 @@
+do ->
+  "use strict"

@@ -1,0 +1,41 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "プリントクリエイター カスタマイズ プラグイン",
+    "en": "print-creator customize plug-in",
+    "zh": "print-creator customize plug-in"
+  },
+  "description": {
+    "ja": "kintoneとプリントクリエイターの連携をカスタマイズしたサンプル",
+    "en": "kintone x print-creator customize sample",
+    "zh": "kintone x print-creator customize sample"
+  },
+  "icon": "images/icon.png",
+  "homepage_url": {
+    "ja": "http://pc.kintoneapp.com/",
+    "en": "http://pc.kintoneapp.com/",
+    "zh": "http://pc.kintoneapp.com/"
+  },
+  "desktop": {
+    "js": [
+      "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+      "dist/desktop.min.js"
+    ],
+    "css": [
+      "dist/desktop.min.css"
+    ]
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+      "dist/config.min.js"
+    ],
+    "css": [
+      "dist/config.min.css"
+    ],
+    "required_params": ["appCode"]
+  }
+}
